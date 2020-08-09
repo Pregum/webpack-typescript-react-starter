@@ -44,6 +44,6 @@ module.exports = {
   ],
   serve: {
     content: path.resolve(__dirname, 'dist'),
-    port: 3000
+    port: 8000
   }
 };
