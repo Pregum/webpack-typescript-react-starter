@@ -31,7 +31,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [ '.tsx', '.ts', '.js']
+    extensions: ['.tsx', '.ts', '.js']
   },
   output: {
     filename: 'static/js/bundle.js',
@@ -42,8 +42,9 @@ module.exports = {
       template: "index.html"
     })
   ],
-  serve: {
-    content: path.resolve(__dirname, 'dist'),
-    port: 8000
+  devServer: {
+    contentBase: path.resolve(__dirname, 'dist'),
+    open: true,
+    publicPath: '/js/'
   }
 };
