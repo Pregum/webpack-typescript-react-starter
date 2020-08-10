@@ -20,7 +20,7 @@ Visual Studio Code上でブレークポイントを張って実際にデバッ�
   1. クローンしたディレクトリで`npm run start` コマンドを実行し、ローカルサーバを起動します。
   1. Visual Studio Code上でindex.tsxを開いて、ブレークポイントを張ります。
   1. Visual Studio Code上でF5を入力し、デバックを開始します。
-  1. `http://localhost:8080`を開くと"Hello World"と表示されます。
+  1. [http://localhost:8080](http://localhost:8080)を開くと"Hello World"と表示されます。
 
 * 開発用ビルド
   1. クローンしたディレクトリで`npm run build`コマンドを実行します。
