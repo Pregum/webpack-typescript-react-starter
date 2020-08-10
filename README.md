@@ -9,8 +9,12 @@ Visual Studio Code上でブレークポイントを張って実際にデバッ�
 ## Requirement
 
 * npm (Confirmed in version 6.14.7)
+* Visual Studio Code (Confirmed in version 1.47.3)
 
 ## Usage
+
+* 共通
+  1. `npm install`コマンドを実行してください。
 
 * ブラウザ確認用
   1. クローンしたディレクトリで`npm run start` コマンドを実行し、ローカルサーバを起動します。
