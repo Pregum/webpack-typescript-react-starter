@@ -43,8 +43,6 @@ module.exports = {
     })
   ],
   devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
-    open: true,
-    publicPath: '/js/'
+    contentBase: path.resolve(__dirname, 'dist')
   }
 };
