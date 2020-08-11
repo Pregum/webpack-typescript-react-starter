@@ -26,11 +26,15 @@ module.exports = {
         options: {
           configFile: 'tsconfig.prod.json'
         }
+      },
+      {
+        test: /\.css$/,
+        loader: ['style-loader', 'css-loader']
       }
     ]
   },
   resolve: {
-    extensions: [ '.tsx', '.ts', '.js']
+    extensions: ['.tsx', '.ts', '.js']
   },
   output: {
     filename: 'static/js/bundle.js',

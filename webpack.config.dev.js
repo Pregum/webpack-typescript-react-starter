@@ -27,6 +27,10 @@ module.exports = {
         options: {
           configFile: 'tsconfig.dev.json'
         }
+      },
+      {
+        test: /\.css$/,
+        loader: ['style-loader', 'css-loader']
       }
     ]
   },
